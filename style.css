@@ -4,7 +4,7 @@ body {
     font-family: 'Montserrat', sans-serif;
 }
 
-.container{
+.container {
     margin-top: 250px;
 }
 
@@ -51,7 +51,7 @@ body {
 span {
     position: absolute;
     top: 50%;
-    left: 50%;
+    left: 0;
     transform: translate(-50%, -50%);
     font-size: 120px;
     letter-spacing: 0.1em;
@@ -60,6 +60,13 @@ span {
     -webkit-text-stroke-color: white;
     text-shadow: 8px 8px #ffcd3c, 20px 20px #000000;
     text-align: center;
+    opacity: 0;
+    transition: all 2.5s ease-in;
+}
+
+.phrase-animation {
+    left: 50%;
+    opacity: 1;
 }
 
 @keyframes pulse {
