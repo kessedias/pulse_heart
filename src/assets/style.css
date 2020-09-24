@@ -61,7 +61,7 @@ span {
     text-shadow: 8px 8px #ffcd3c, 20px 20px #000000;
     text-align: center;
     opacity: 0;
-    transition: all 2.5s ease-in;
+    transition: all 1.5s ease-in;
 }
 
 .phrase-animation {
