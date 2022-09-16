@@ -1,13 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat:900i&display=swap');
 body {
     font-family: 'Montserrat', sans-serif;
-    background: rgba(0, 0, 0, 0.3);
-    background-image: url('https://c.wallhere.com/photos/87/e0/cats_couple_face_glare-658772.jpg!d');
-    background-repeat: no-repeat;
-    background-position: center top;
-    background-attachment: fixed;
-    background-size: cover;
-    background-blend-mode: overlay;
+    background-color: black;
 }
 
 .container {
